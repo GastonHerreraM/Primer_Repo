@@ -205,6 +205,16 @@ article{
     100%{background-image: url(/img/wp_studio.jpg);}
 }
 
+header{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    animation-name: header_animation;
+    animation-timing-function: ease-in;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
 /*-- Header, Tamaño de titulos y fuentes, separadores, contenedores y cajas end --*/
 
 /*-- Footer, imagenes y Logo --*/
