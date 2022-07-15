@@ -199,10 +199,10 @@ article{
 }
 
 @keyframes header_animation{
-    0%{background-image: url(/img/wp_studio.jpg)}
-    33%{background-image: url(/img/wp_studio1.jpg)}
-    66%{background-image: url(/img/wp_studio2.jpg)}
-    100%{background-image: url(/img/wp_studio.jpg);}
+    0%{background-image: url(../img/wp_studio.jpg)}
+    33%{background-image: url(../img/wp_studio1.jpg)}
+    66%{background-image: url(../img/wp_studio2.jpg)}
+    100%{background-image: url(../img/wp_studio.jpg);}
 }
 
 header{
