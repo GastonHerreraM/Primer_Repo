@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: center;
     background-color: #000000;
-    z-index: +1;
+    z-index: +100;
     position: sticky;
     top: 0;
     padding: 10px 30px;
@@ -58,6 +58,7 @@ nav ul li a:hover{
     top: 0%;
     border-radius: 50px;
     transform: translateX(-50%);
+    z-index: +100;
 }
 /*---------- Reset, Base content & Navbar end------------*/
 
@@ -67,10 +68,11 @@ nav ul li a:hover{
     width: 100%;
     height: 90vh;
     object-fit: cover;
-    animation-name: header_animation;
-    animation-timing-function: ease-in;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
+}
+
+.carousel__height{
+    height: 90vh;
+    object-fit: cover;
 }
 
 .google__maps--fluid{
@@ -196,23 +198,6 @@ article{
 
 .text-center{
     text-align: center;
-}
-
-@keyframes header_animation{
-    0%{background-image: url(../img/wp_studio.jpg)}
-    33%{background-image: url(../img/wp_studio1.jpg)}
-    66%{background-image: url(../img/wp_studio2.jpg)}
-    100%{background-image: url(../img/wp_studio.jpg);}
-}
-
-header{
-    width: 100%;
-    height: 90vh;
-    object-fit: cover;
-    animation-name: header_animation;
-    animation-timing-function: ease-in;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
 }
 
 /*-- Header, Tamaño de titulos y fuentes, separadores, contenedores y cajas end --*/
