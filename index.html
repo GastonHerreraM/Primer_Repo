@@ -11,26 +11,37 @@
 </head>
 <body>
     <div class="grid template-areas">
-        <nav id="nav">
+        <nav class="navbar navbar-expand-md bg-dark">
             <a href="index.html">
                 <img src="img/fws-logo1.png" alt="Logo" class="logo logo__resize">
             </a>
-
-            <ul class="nav__ul">
-                <li>
-                    <a href="pages/noticias.html">Noticias</a>
-                </li>
-                <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="pages/artistas.html">Artistas</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+            <div class="container-fluid">
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/noticias.html">noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/nosotros.html">nosotros</a>
+                  </li>
+                    <li class="d-none d-md-block">
+                        <a href="index.html">
+                        <img src="img/fws-logo1.png" alt="Logo" class="logo logo__resize">
+                        </a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/artistas.html">artistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/contacto.html">contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
         <header id="header">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
