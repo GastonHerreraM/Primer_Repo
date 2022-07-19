@@ -2,7 +2,8 @@
 
 *{  padding: 0;
     margin: 0;
-    color: #8b8b8b;
+    color: #aaa;
+    font-weight: 400 !important;
 }
 
 html{
@@ -76,7 +77,8 @@ nav ul li a:hover{
 
 .titulo{
     font-size: 4rem;
-    color: #929292;
+    color: #ffffff;
+    font-weight: 600 !important;
     margin: 25px;
 }
 
@@ -93,6 +95,10 @@ p{
 
 .font__size{
     font-size: 2.5rem;
+}
+
+.font__weight{
+    font-weight: 500;
 }
 
 .separador{
@@ -455,6 +461,11 @@ footer{
         gap: 10px 10px;
     }
 
+    .asignacion__columna--main{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
     .container3:hover .overlay{
         opacity: .6;
     }
@@ -533,6 +544,10 @@ footer{
     }
 
     .font__size--media{
+        font-size: 1.6rem;
+    }
+
+    .font__size{
         font-size: 1.9rem;
     }
 }
