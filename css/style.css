@@ -360,7 +360,7 @@ footer{
 
 /*-- medias queries --*/
 
-@media only screen and (min-width: 800px) and (max-width:1048px){
+@media only screen and (min-width: 769px) and (max-width:1048px){
 
     .img__resize--large{
         width: 26vw;
@@ -413,8 +413,8 @@ footer{
     }
 
     .logo__resize--typo{
-        width: 80%;
-        height: 42vh;
+        width: 200px;
+        height: 200px;
     }
 
     .footer__resize{
@@ -436,10 +436,6 @@ footer{
     nav ul li a{
         font-size: 1.9rem;
         padding: 5px 10px;
-    }
-    
-    nav ul li:nth-child(3){
-        margin-left: 60px;
     }
 
     .logo__resize{
