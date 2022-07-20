@@ -2,8 +2,8 @@
 
 *{  padding: 0;
     margin: 0;
-    color: #aaa;
-    font-weight: 400 !important;
+    color: #999999;
+    font-weight: 500 !important;
 }
 
 html{
@@ -45,7 +45,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: rgb(255, 255, 255) !important;
-    font-weight: 600 !important;
+    font-weight: 800 !important;
 }
 
 .logo{
@@ -405,8 +405,9 @@ footer{
       }
 
     .img__media{
-        width: 45%;
-        height: 48vh;
+        width: 250px;
+        height: 400px;
+        object-fit: none;
     }
 
     .nombre__banda{
@@ -499,13 +500,15 @@ footer{
     }
 
     .img__media{
-        width: 60%;
-        height: 32vh;
+        width: 250px;
+        height: 35vh;
+        object-fit: contain;
     }
 
     .img__media1{
         width: 100%;
         height: 30vh;
+        object-fit: contain;
     }
 
     .container5{
