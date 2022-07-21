@@ -215,8 +215,8 @@ article{
 }
 
 .img__resize--large{
-    width: 34vw;
-    height: 80vh;
+    width: 33vw;
+    height: 70vh;
 }
 
 .img__resize{
@@ -551,4 +551,33 @@ footer{
     .font__size{
         font-size: 1.9rem;
     }
+}
+
+@media only screen and (min-width: 280px) and (max-width:576px){
+
+    .img__resize--large{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: 75% 50%;
+    }
+
+    .img__resize2{
+        width: 100%;
+        height: auto;
+        object-position: 75% 50%;
+    }
+
+    .img__resize{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img__resize1{
+        width: 100%;
+        height: auto;
+        object-position: 35% 50%;
+    }
+
 }
