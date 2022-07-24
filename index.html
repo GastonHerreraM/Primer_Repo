@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="grid template-areas">
+        <!-- navbar responsive + toggle icon -->
         <nav id="nav" class="navbar navbar-expand-md navbar-dark">
             <a href="index.html">
                 <img src="img/fws-logo1.png" alt="Logo" class="logo logo__resize">
@@ -43,21 +44,23 @@
             </div>
         </nav>
           <!-- navbar responsive + toggle icon end-->
+
+          <!-- Carousel -->
         <header id="header">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active" data-bs-interval="3000">
                     <img src="img/wp_studio.jpg" class="d-block w-100 carousel__height" alt="slide 1">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/wp_studio1.jpg" class="d-block w-100 carousel__height" alt="slide 2">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/wp_studio2.jpg" class="d-block w-100 carousel__height" alt="slide 3">
                   </div>
                 </div>
@@ -81,12 +84,24 @@
                     Dolorum aliquam nulla mollitia tempora quidem. Consequuntur reiciendis dolorem fuga eligendi veniam ut impedit! Quibusdam, aspernatur! Possimus magnam obcaecati sequi vel praesentium unde eveniet dignissimos, aliquid perferendis illum ipsa libero.</p>
             </div>
             <div class="grid sector-template-areas">
-                <img src="img/estudio1.jpg" alt="" class="img__fit">
-                <img src="img/estudio2.jpg" alt="" class="img__fit">
-                <img src="img/estudio3.jpg" alt="" class="img__fit">
-                <img src="img/estudio5.jpg" alt="" class="img__fit">
-                <img src="img/estudio6.jpg" alt="" class="img__fit">
-                <img src="img/estudio7.jpg" alt="" class="img__fit">
+                <div class="caja disable1">
+                    <img src="img/estudio1.jpg" alt="" class="img__fit">
+                </div>
+                <div class="caja disable1">
+                    <img src="img/estudio2.jpg" alt="" class="img__fit">
+                </div>
+                <div class="caja disable1">
+                    <img src="img/estudio3.jpg" alt="" class="img__fit">
+                </div>
+                <div class="caja disable1">
+                    <img src="img/estudio5.jpg" alt="" class="img__fit">
+                </div>
+                <div class="caja disable1">
+                    <img src="img/estudio6.jpg" alt="" class="img__fit">
+                </div>
+                <div class="caja disable1">
+                    <img src="img/estudio7.jpg" alt="" class="img__fit">
+                </div>
             </div>
         </main>
 
