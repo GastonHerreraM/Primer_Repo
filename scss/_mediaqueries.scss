@@ -1,0 +1,207 @@
+@media only screen and (min-width: 768px) and (max-width:1048px){
+
+    .img__resize--large{
+        width: 26vw;
+        height: 70vh;
+        object-fit: cover;
+        object-position: 20% 50%;
+    }
+
+    .img__resize1{
+        width: 26vw;
+        height: 60vh;
+        object-fit: cover;
+        object-position: 32% 50%;
+    }
+
+    .container3:hover .overlay{
+        opacity: .6;
+    }
+
+    .disabled{
+        pointer-events: none;
+        opacity: .6;
+      }
+
+    .img__media{
+        width: 250px;
+        height: 400px;
+        object-fit: none;
+    }
+
+    .nombre__banda{
+        font-size: 3.2rem;
+    }
+
+    .logo__resize--footer{
+        width: 220px;
+        height: 220px;
+    }
+
+    .logo__resize--typo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer__resize{
+        height: 24vh;
+    }
+}
+
+@media only screen and (max-width:767px){
+
+    .navbar-toggler-icon{
+        width: 3em;
+        height: 3em;
+    }
+
+    .nav__ul{
+        padding: 2px;
+    }
+
+    nav ul li a{
+        font-size: 1.9rem;
+        padding: 5px 10px;
+    }
+
+    .logo__resize{
+        width: 110px;
+        height: 110px;
+    }
+
+    .sector-template-areas{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 47vh);
+        gap: 5px 5px;
+    }
+    
+    .sector-template-areas1{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 30vh);
+        gap: 10px 10px;
+    }
+
+    .asignacion__columna--main{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .container3:hover .overlay{
+        opacity: .6;
+    }
+
+    .disabled{
+        pointer-events: none;
+        opacity: .6;
+    }
+
+    .disable1{
+        pointer-events: none;
+    }
+
+    .container{
+        flex-direction: row-reverse;
+    }
+
+    .img__resize--large{
+        object-fit: cover;
+        object-position: 75% 50%;
+    }
+
+    .img__resize{
+        width: 30vw;
+        object-position: 45% 50%;
+    }
+
+    .img__resize1{
+        object-position: 35% 50%;
+    }
+
+    .img__resize2{
+        height: 67vh;
+        object-position: 75% 50%;
+    }
+
+    .img__media{
+        width: 250px;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+    .img__media1{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+    }
+
+    .nombre__banda{
+        font-size: 3.2rem;
+    }
+
+    .logo__resize--footer{
+        display: none;
+    }
+
+    .logo__resize--typo{
+        width: 100%;
+        height: 42vh;
+    }
+
+    .footer__resize{
+        height: 18vh;
+    }
+
+    .subtitulo{
+        font-size: 2.6rem;
+    }
+
+    .font__size--media{
+        font-size: 1.6rem;
+    }
+
+    .font__size{
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width:576px){
+
+    .img__resize--large{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: 75% 50%;
+    }
+
+    .img__resize2{
+        width: 100%;
+        height: auto;
+        object-position: 75% 50%;
+    }
+
+    .img__resize{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img__resize1{
+        width: 100%;
+        height: auto;
+        object-position: 35% 50%;
+    }
+
+    .clip__img{
+        clip-path: none;
+    }
+
+    .caja1{
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        transition: 1s;
+    }
+
+    .caja1:hover{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+}
