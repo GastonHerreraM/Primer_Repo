@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
+.nav__font{
+    font-size: 1.4rem;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #000000;
@@ -9,7 +13,7 @@ body{
 .titulo{
     font-size: 4rem;
     color: #ffffff;
-    font-weight: 600 !important;
+    font-weight: 600;
     margin: 25px;
 }
 
@@ -21,21 +25,17 @@ body{
 }
 
 p{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 .font__size{
-    font-size: 2.5rem;
+    font-size: 1.6rem;
 }
 
 .font__weight{
     font-weight: 500;
 }
 
-article a{
-    font-size: 2.4rem;
-}
-
 article{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
