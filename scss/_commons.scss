@@ -1,12 +1,9 @@
 .encabezado__img--fluid{
-    width: 100%;
-    height: 90vh;
-    object-fit: cover;
+    @include box(100%, 90vh, cover);
 }
 
 .carousel__height{
-    height: 90vh;
-    object-fit: cover;
+    @include box(auto, 90vh, cover);
 }
 
 .google__maps--fluid{
@@ -47,29 +44,21 @@
 }
 
 .img__resize{
-    width: 100%;
-    height: 60vh;
-    object-fit: none;
-    object-position: 50% 30%;
+    @include box(30vw, 60vh, cover);
 }
 
 .img__resize1{
-    width: 30vw;
-    height: 60vh;
-    object-fit: cover;
+    @include box(100%, 60vh, none);
+    object-position: 50% 30%;
 }
 
 .img__resize2{
-    width: 26vw;
-    height: 60vh;
-    object-fit: cover;
+    @extend .img__resize;
     object-position: 80% 50%;
 }
 
 .img__fit{
-    width: 100%;
-    height: 47vh;
-    object-fit: cover;
+    @include box(100%, 47vh, cover);
 }
 
 .clip__img{
@@ -83,9 +72,7 @@
 
 .img__resize--grid{
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @include box(100%, 100%, cover);
 }
 
 .container3{

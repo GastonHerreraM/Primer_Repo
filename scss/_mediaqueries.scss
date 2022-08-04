@@ -1,16 +1,12 @@
 @media only screen and (min-width: 768px) and (max-width:1048px){
 
     .img__resize--large{
-        width: 26vw;
-        height: 70vh;
-        object-fit: cover;
+        @include box(26vw, 60vh, cover);
         object-position: 20% 50%;
     }
 
-    .img__resize1{
-        width: 26vw;
-        height: 60vh;
-        object-fit: cover;
+    .img__resize{
+        @include box(26vw, 60vh, cover);
         object-position: 32% 50%;
     }
 
@@ -24,9 +20,7 @@
       }
 
     .img__media{
-        width: 250px;
-        height: 400px;
-        object-fit: none;
+        @include box(250px, 400px, none);
     }
 
     .nombre__banda{
@@ -108,12 +102,12 @@
         object-position: 75% 50%;
     }
 
-    .img__resize{
+    .img__resize1{
         width: 30vw;
         object-position: 45% 50%;
     }
 
-    .img__resize1{
+    .img__resize{
         object-position: 35% 50%;
     }
 
@@ -123,15 +117,11 @@
     }
 
     .img__media{
-        width: 250px;
-        height: 35vh;
-        object-fit: contain;
+        @include box(250px, 35vh, contain);
     }
 
     .img__media1{
-        width: 100%;
-        height: 30vh;
-        object-fit: contain;
+        @include box(100%, 30vh, contain);
     }
 
     .nombre__banda{
@@ -167,9 +157,7 @@
 @media only screen and (min-width: 280px) and (max-width:576px){
 
     .img__resize--large{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+        @include box(100%, auto, cover);
         object-position: 75% 50%;
     }
 
@@ -179,13 +167,11 @@
         object-position: 75% 50%;
     }
 
-    .img__resize{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+    .img__resize1{
+        @include box(100%, auto, cover);
     }
 
-    .img__resize1{
+    .img__resize{
         width: 100%;
         height: auto;
         object-position: 35% 50%;
