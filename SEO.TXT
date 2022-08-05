@@ -1,0 +1,40 @@
+
+ Index.html:
+
+ 	-Description: usando meta description agregue el siguiente parrafo: "Estudio de grabación, productora y sello discográfico. Equipo de músicos, técnicos y profesionales apoyando artistas a expresar su arte."
+
+ 	-Palabras claves: usando meta keywords agregue las siguientes palabras claves: "Estudio, grabación, productora, sello discográfico, mezcla, mastering"
+
+	-Encabezado: h1 = "Estudio"
+
+ Noticias.html:
+
+ 	-Description: "Noticias relacionadas con nuestro estudio y el mundo de la música, enfocados en los géneros en los cuales trabajamos (Heavy Metal, Thrash Metal, Stoner Rock y Synthwave)"
+
+ 	-Keywords: "Noticias, Estudio, Grabación, Música, Heavy Metal, Thrash Metal, Stoner Rock, Synthwave"
+
+ 	-Encabezado: h1 = Noticias
+
+ Nosotros.html:
+
+ 	-Description: "La historia y objetivo de nuestro equipo. Como nació, creció y evolucionó llegando a ser lo que es hoy en dia."
+
+ 	-Keywords: "Historia, Objetivo, Equipo, Estudio, Grabación, Edición, Mezcla, Mastering, Producción, Sello Discográfico"
+
+ 	-Encabezado: h1 = Nosotros
+
+ Artistas.html:
+
+ 	-Description: "Algunos de los artistas que pasaron/hicieron trayectoria junto a floating worlds studio en sus respectivos generos (Heavy Metal, Thrash Metal, Stoner Rock, Synthwave)"
+	
+	-Keywords: "Artistas, Anthrax, Be'lakor, Fu Manchu, 1000mods, Lazerhawk, Mitch Murder, Insomnium, Sepultura"
+
+ 	-Encabezado: h1 = Artistas
+
+Contacto.html:
+
+	-Description: "Contactanos para el servicio que necesites. Grabar en nuestras instalaciones, la produccion de tu disco y/o usar nuestros servicios de sello discografico"
+
+	-Keywords: "Contacto, Servicios, Grabación, Producción, Sello Discográfico, Banda, Album"
+
+ 	-Encabezado: h1 = Contacto
