@@ -6,13 +6,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #000000;
+    background-color: map-get($map:$paleta, $key:'uno');
     overflow-x: hidden;
 }
 
 .titulo{
     font-size: 4rem;
-    color: #ffffff;
+    color: map-get($map:$paleta, $key:'tres');
     font-weight: 600;
     margin: 25px;
 }
@@ -21,7 +21,7 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 3rem;
-    color: rgb(233, 233, 233);
+    color: map-get($map:$paleta, $key:'cuatro');
 }
 
 p{
