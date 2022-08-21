@@ -3,3 +3,9 @@
     color: map-get($map: $paleta, $key:'dos');
     font-weight: 500;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

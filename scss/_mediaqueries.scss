@@ -53,6 +53,10 @@
         height: 1.6em;
     }
 
+    .navbar-nav{
+        margin-top: 38px;
+    }
+
     .nav__ul{
         padding: 2px;
     }
@@ -162,13 +166,11 @@
 
     .img__resize--large{
         @include box(100%, auto, cover);
-        object-position: 75% 50%;
     }
 
     .img__resize2{
         width: 100%;
         height: auto;
-        object-position: 75% 50%;
     }
 
     .img__resize1{
@@ -176,9 +178,7 @@
     }
 
     .img__resize{
-        width: 100%;
-        height: auto;
-        object-position: 35% 50%;
+        @include box(100%, auto, cover);
     }
 
     .clip__img{
