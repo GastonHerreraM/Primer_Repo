@@ -18,20 +18,33 @@
     margin: 12px;
 }
 
-.caja{
-    width: auto;
-    height: auto;
-    transition: 1s;
+.cajon{
+    display: flex;
+    width: 100%;
+    height: 47vh;
+    padding: 1% 1%;
 }
 
-.caja .img__fit{
-    display: block;
-    width: 100%;
+.caja{
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 1%;
+}
+
+.caja > img{
+    width: 200%;
+    object-fit: cover; 
+    transition: .5s;
 }
 
 .caja:hover{
-    transform: scale(1.2);
-    z-index: 2;
+    flex: 1 1 80%;
+}
+
+.caja:hover > img {
+    width: 100%;
+    height: 100%;
 }
 
 .text-center{
@@ -111,12 +124,6 @@
 }
 
 .sector-template-areas{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 47vh 47vh;
-    gap: 5px 5px;
-}
-
-.sector-template-areas1{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 30vh 30vh;
     gap: 10px 10px;

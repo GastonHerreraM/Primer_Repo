@@ -97,10 +97,6 @@
         opacity: .6;
     }
 
-    .disable1{
-        pointer-events: none;
-    }
-
     .container{
         flex-direction: row-reverse;
     }
@@ -166,6 +162,21 @@
 
     .img__resize--large{
         @include box(100%, auto, cover);
+    }
+
+    .disable1{
+        pointer-events: none;
+    }
+    .cajon{
+        display: inline-block;
+    }
+
+    .caja{
+        padding: 1% 1%;
+    }
+
+    .img__fit{
+        object-position: 120% 0%;
     }
 
     .img__resize2{
