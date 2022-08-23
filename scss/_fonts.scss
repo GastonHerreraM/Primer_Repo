@@ -18,12 +18,22 @@ body{
     text-shadow: 2px 2px 4px #000000
 }
 
+.titulo__hero{
+    @extend .titulo;
+        font-size: 4.9rem;
+}
+
 .subtitulo{
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 3rem;
     color: map-get($map:$paleta, $key:'cuatro');
     text-shadow: 2px 2px 4px #000000
+}
+
+.subtitulo__hero{
+    @extend .subtitulo;
+    font-size: 3.2rem;
 }
 
 p{

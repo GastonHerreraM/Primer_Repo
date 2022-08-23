@@ -149,6 +149,14 @@
         font-size: 2.6rem;
     }
 
+    .subtitulo__hero{
+        font-size: 2.5rem;
+    }
+
+    .titulo__hero{
+        font-size: 3.5rem;
+    }
+
     .font__size--media{
         font-size: 1.6rem;
     }
@@ -206,4 +214,23 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
+    .subtitulo{
+        font-size: 1.3rem;
+    }
+
+    .titulo{
+        font-size: 1.7rem;
+    }
+
+    .hero{
+        @include box(100%, calc(45vh - 78px), none);
+    }
+
+    .font__size{
+        font-size: 1.3rem;
+    }
+
+    .font__size--media{
+        font-size: 1.3rem;
+    }
 }

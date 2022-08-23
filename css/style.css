@@ -81,7 +81,7 @@ body {
   overflow-x: hidden;
 }
 
-.titulo {
+.titulo, .titulo__hero {
   font-size: 4rem;
   color: #ffffff;
   font-weight: 600;
@@ -89,12 +89,20 @@ body {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.subtitulo {
+.titulo__hero {
+  font-size: 4.9rem;
+}
+
+.subtitulo, .subtitulo__hero {
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 3rem;
   color: #e9e9e9;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.subtitulo__hero {
+  font-size: 3.2rem;
 }
 
 p {
@@ -468,8 +476,14 @@ footer {
   .footer__resize {
     height: 18vh;
   }
-  .subtitulo {
+  .subtitulo, .subtitulo__hero {
     font-size: 2.6rem;
+  }
+  .subtitulo__hero {
+    font-size: 2.5rem;
+  }
+  .titulo__hero {
+    font-size: 3.5rem;
   }
   .font__size--media {
     font-size: 1.6rem;
@@ -521,6 +535,23 @@ footer {
   }
   .caja1:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .subtitulo, .subtitulo__hero {
+    font-size: 1.3rem;
+  }
+  .titulo, .titulo__hero {
+    font-size: 1.7rem;
+  }
+  .hero {
+    width: 100%;
+    height: calc(45vh - 78px);
+    object-fit: none;
+  }
+  .font__size {
+    font-size: 1.3rem;
+  }
+  .font__size--media {
+    font-size: 1.3rem;
   }
 }
 
