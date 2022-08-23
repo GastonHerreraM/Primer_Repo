@@ -222,10 +222,6 @@
         font-size: 1.7rem;
     }
 
-    .hero{
-        @include box(100%, calc(45vh - 78px), none);
-    }
-
     .font__size{
         font-size: 1.3rem;
     }
