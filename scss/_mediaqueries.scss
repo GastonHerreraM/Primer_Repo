@@ -158,7 +158,7 @@
     }
 }
 
-@media only screen and (min-width: 280px) and (max-width:576px){
+@media only screen and (min-width: 1px) and (max-width:576px){
 
     .img__resize--large{
         @include box(100%, auto, cover);
@@ -167,6 +167,7 @@
     .disable1{
         pointer-events: none;
     }
+    
     .cajon{
         display: inline-block;
     }
@@ -175,8 +176,8 @@
         padding: 1% 1%;
     }
 
-    .img__fit{
-        object-position: 120% 0%;
+    .caja .img__fit {
+        @include box (100%, auto, cover);
     }
 
     .img__resize2{

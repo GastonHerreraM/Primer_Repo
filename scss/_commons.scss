@@ -1,9 +1,24 @@
 .encabezado__img--fluid{
-    @include box(100%, 90vh, cover);
+    @include box(100%, calc(80vh - 78px), cover);
 }
 
-.carousel__height{
-    @include box(auto, 90vh, cover);
+.hero{
+    position: relative;
+    @include box(100%, calc(80vh - 78px), none);
+    background-position: center;
+    background-size: cover;
+    transition: all .8s ease-in-out;
+    background-image: url(../img/mesa_grabacion_header.jpg);
+    animation: hero 12s infinite linear;
+}
+
+.hero__content{
+    @include box(100%, 100%, none);
+    background-color: rgba( 0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .google__maps--fluid{
@@ -32,7 +47,7 @@
     margin: 0 1%;
 }
 
-.caja > img{
+.caja .img__fit{
     width: 200%;
     object-fit: cover; 
     transition: .5s;
@@ -42,7 +57,7 @@
     flex: 1 1 80%;
 }
 
-.caja:hover > img {
+.caja:hover .img__fit {
     width: 100%;
     height: 100%;
 }
@@ -158,4 +173,25 @@ footer{
 .asignacion__columna--main{
     grid-column: 2/3;
     grid-row: 3/4;
+}
+
+@keyframes hero{
+    0% {
+        background-image: url(../img/wp_studio.jpg);
+    }
+    33% {
+        background-image: url(../img/wp_studio.jpg);
+    }
+    34% {
+        background-image: url(../img/wp_studio1.jpg);
+    }
+    66% {
+        background-image: url(../img/wp_studio1.jpg);
+    }
+    67% {
+        background-image: url(../img/wp_studio2.jpg);
+    }
+    100% {
+        background-image: url(../img/wp_studio2.jpg);
+    }
 }

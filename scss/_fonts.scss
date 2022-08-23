@@ -15,6 +15,7 @@ body{
     color: map-get($map:$paleta, $key:'tres');
     font-weight: 600;
     margin: 25px;
+    text-shadow: 2px 2px 4px #000000
 }
 
 .subtitulo{
@@ -22,6 +23,7 @@ body{
     padding-bottom: 25px;
     font-size: 3rem;
     color: map-get($map:$paleta, $key:'cuatro');
+    text-shadow: 2px 2px 4px #000000
 }
 
 p{
