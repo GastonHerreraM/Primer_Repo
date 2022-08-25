@@ -81,7 +81,7 @@ body {
   overflow-x: hidden;
 }
 
-.titulo, .titulo__hero {
+.titulo {
   font-size: 4rem;
   color: #ffffff;
   font-weight: 600;
@@ -91,18 +91,25 @@ body {
 
 .titulo__hero {
   font-size: 4.9rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 25px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.subtitulo, .subtitulo__hero {
+.subtitulo {
+  font-size: 3rem;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 3rem;
   color: #e9e9e9;
   text-shadow: 2px 2px 4px #000000;
 }
 
 .subtitulo__hero {
   font-size: 3.2rem;
+  margin: 25px;
+  color: #e9e9e9;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 p {
@@ -147,7 +154,7 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .google__maps--fluid {
@@ -307,6 +314,16 @@ footer {
   grid-row: 3/4;
 }
 
+.accordion-item {
+  background: #000000;
+  color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #000000;
+  color: #ffffff;
+}
+
 @keyframes hero {
   0% {
     background-image: url(../img/wp_studio.jpg);
@@ -350,6 +367,10 @@ footer {
 .footer__resize {
   width: 100%;
   height: 32vh;
+}
+
+p1 {
+  color: #ff0000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1048px) {
@@ -476,7 +497,7 @@ footer {
   .footer__resize {
     height: 18vh;
   }
-  .subtitulo, .subtitulo__hero {
+  .subtitulo {
     font-size: 2.6rem;
   }
   .subtitulo__hero {
@@ -500,6 +521,11 @@ footer {
   }
   .disable1 {
     pointer-events: none;
+  }
+  .hero {
+    width: 100%;
+    height: calc(55vh - 78px);
+    object-fit: none;
   }
   .cajon {
     display: inline-block;
@@ -536,11 +562,14 @@ footer {
   .caja1:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .subtitulo, .subtitulo__hero {
+  .subtitulo {
     font-size: 1.3rem;
   }
-  .titulo, .titulo__hero {
+  .titulo {
     font-size: 1.7rem;
+  }
+  .titulo__hero {
+    font-size: 3rem;
   }
   .font__size {
     font-size: 1.3rem;

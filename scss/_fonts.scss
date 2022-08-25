@@ -19,21 +19,26 @@ body{
 }
 
 .titulo__hero{
-    @extend .titulo;
         font-size: 4.9rem;
+        color: map-get($map:$paleta, $key:'tres');
+        font-weight: 600;
+        margin: 25px;
+        text-shadow: 2px 2px 4px #000000
 }
 
 .subtitulo{
+    font-size: 3rem;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 3rem;
     color: map-get($map:$paleta, $key:'cuatro');
     text-shadow: 2px 2px 4px #000000
 }
 
 .subtitulo__hero{
-    @extend .subtitulo;
     font-size: 3.2rem;
+    margin: 25px;
+    color: map-get($map:$paleta, $key:'cuatro');
+    text-shadow: 2px 2px 4px #000000
 }
 
 p{

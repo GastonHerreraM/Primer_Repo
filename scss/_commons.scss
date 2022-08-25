@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 
 .google__maps--fluid{
@@ -173,6 +173,16 @@ footer{
 .asignacion__columna--main{
     grid-column: 2/3;
     grid-row: 3/4;
+}
+
+.accordion-item {
+    background: #000000;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #000000;
+    color:#ffffff;
 }
 
 @keyframes hero{
