@@ -8,7 +8,6 @@
     background-position: center;
     background-size: cover;
     transition: all .8s ease-in-out;
-    background-image: url(../img/mesa_grabacion_header.jpg);
     animation: hero 12s infinite linear;
 }
 
@@ -213,21 +212,21 @@ footer{
 
 @keyframes hero{
     0% {
-        background-image: url(../img/wp_studio.jpg);
+        background-image: url(../img/wp_studio.webp);
     }
     33% {
-        background-image: url(../img/wp_studio.jpg);
+        background-image: url(../img/wp_studio.webp);
     }
     34% {
-        background-image: url(../img/wp_studio1.jpg);
+        background-image: url(../img/wp_studio1.webp);
     }
     66% {
-        background-image: url(../img/wp_studio1.jpg);
+        background-image: url(../img/wp_studio1.webp);
     }
     67% {
-        background-image: url(../img/wp_studio2.jpg);
+        background-image: url(../img/wp_studio2.webp);
     }
     100% {
-        background-image: url(../img/wp_studio2.jpg);
+        background-image: url(../img/wp_studio2.webp);
     }
 }
