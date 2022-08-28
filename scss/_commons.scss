@@ -98,6 +98,11 @@
     height: 150px;
 }
 
+.logo__error{
+    width: 300px;
+    height: 300px;
+}
+
 .img__resize--grid{
     display: block;
     @include box(100%, 100%, cover);
@@ -183,6 +188,27 @@ footer{
 .accordion-button:not(.collapsed) {
     background: #000000;
     color:#ffffff;
+}
+
+.hero_error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba( 0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    min-height: 50vh;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 @keyframes hero{

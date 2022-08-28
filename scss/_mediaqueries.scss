@@ -164,6 +164,10 @@
     .font__size{
         font-size: 1.9rem;
     }
+    
+    .error__font{
+        font-size: 18rem;
+    }
 }
 
 @media only screen and (min-width: 1px) and (max-width:576px){
@@ -236,5 +240,18 @@
 
     .font__size--media{
         font-size: 1.3rem;
+    }
+
+    .hero_error{
+        min-height: 35vh;
+    }
+
+    .error__font{
+        font-size: 7rem;
+    }
+
+    .logo__error{
+        width: 180px;
+        height: 180px;
     }
 }

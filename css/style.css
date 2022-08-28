@@ -128,6 +128,15 @@ article {
   font-size: 1.8rem;
 }
 
+p1 {
+  color: #ff0000;
+}
+
+.error__font {
+  font-size: 25rem;
+  z-index: 1;
+}
+
 .encabezado__img--fluid {
   width: 100%;
   height: calc(80vh - 78px);
@@ -239,6 +248,11 @@ article {
   height: 150px;
 }
 
+.logo__error {
+  width: 300px;
+  height: 300px;
+}
+
 .img__resize--grid {
   display: block;
   width: 100%;
@@ -324,6 +338,27 @@ footer {
   color: #ffffff;
 }
 
+.hero_error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: relative;
+  min-height: 50vh;
+}
+
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 @keyframes hero {
   0% {
     background-image: url(../img/wp_studio.jpg);
@@ -367,10 +402,6 @@ footer {
 .footer__resize {
   width: 100%;
   height: 32vh;
-}
-
-p1 {
-  color: #ff0000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1048px) {
@@ -512,6 +543,9 @@ p1 {
   .font__size {
     font-size: 1.9rem;
   }
+  .error__font {
+    font-size: 18rem;
+  }
 }
 @media only screen and (min-width: 1px) and (max-width: 576px) {
   .img__resize--large {
@@ -576,6 +610,16 @@ p1 {
   }
   .font__size--media {
     font-size: 1.3rem;
+  }
+  .hero_error {
+    min-height: 35vh;
+  }
+  .error__font {
+    font-size: 7rem;
+  }
+  .logo__error {
+    width: 180px;
+    height: 180px;
   }
 }
 
