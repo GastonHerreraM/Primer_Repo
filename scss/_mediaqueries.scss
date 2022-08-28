@@ -179,10 +179,6 @@
     .disable1{
         pointer-events: none;
     }
-
-    .hero{
-        @include box(100%, calc(55vh - 78px), none);
-    }
     
     .cajon{
         display: inline-block;
@@ -243,7 +239,7 @@
     }
 
     .hero_error{
-        min-height: 35vh;
+        min-height: 45vh;
     }
 
     .error__font{
