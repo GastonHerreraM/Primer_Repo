@@ -35,10 +35,11 @@ a mano como bootstrap.
 
 ### -Contacto:
 
-Esta seccion se hizo en un principio de grids, se cambio a bootstrap porque este facilito el responsive de la pagina. Cuenta con un acordion para una pequeña
+Esta seccion se hizo en un principio en grids, se cambio a bootstrap porque este facilito el responsive de la pagina. Cuenta con un acordion para una pequeña
 seccion de faqs, un formulario para el registro de las bandas y un mapa de google para la ubicacion del estudio.
 
 ## Estado del proyecto
 
 Eventualmente se va a ir incorporando mas cosas al proyecto a medida que vaya aprendiendo mas lenguajes, técnicas, truquitos y/o simplemente me caiga una idea del cielo.
-Estoy contento con lo que logre en este pequeño lapso de tiempo, pero no conforme. Asique se va a seguir intentando hasta lograr esa pagina que imagine en un principio.
+Estoy contento con lo que logre en este pequeño lapso de tiempo, pero no conforme por mi carencia de conocimientos en ciertas areas. Asique se va a seguir 
+intentando hasta lograr esa pagina que imagine en un principio.
